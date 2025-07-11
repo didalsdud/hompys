@@ -140,7 +140,7 @@ export function createPostElement(postData) {
     li.innerHTML = `
         <div class="post-title-container">
         
-        <span class="dot">⬤</span> <div class="post-title">${postData.title || 'Untitled Post'}</div> <div class="post-date">${formatPostDate(postData.date)}</div> </div>
+        <span class="dot">♥</span> <div class="post-title">${postData.title || 'Untitled Post'}</div> <div class="post-date">${formatPostDate(postData.date)}</div> </div>
         
         <div class="post-note">${postData.note || ''}</div> <div class="action-row">
         ${postData.tag ? `<span class="post-tag">${postData.tag}</span>` : ''} <div class="post-like-container">
